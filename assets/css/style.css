@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Slabo+27px")
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Slabo, 'Times New Roman', Times, Serif;
+	color: #777777;
+	background-color: #888888;
+	background-image:url("../images/whitepaper.jpg");
+	background-repeat: repeat;
+	width: 100%;
+}
+
+h1,h2,h3 {
+	font-family: Robot, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: teal;
+}
+
+p {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2.75em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2.25em;
+}
+
+header, #mainpage, footer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	box-sizing: border-box;
+}
+
+.headersec {
+	background-color: #FFFFFF;
+	width:100%;
+	position: fixed top;
+}
+
+#header {
+	border-bottom: 2px, solid #cccccc;
+	margin-bottom: 15px
+	
+}
+
+header h1 {
+	color: white;
+	background-color: teal;
+	padding: 15px;
+	display: inline-block;
+	width: 360px;
+	text-align: center;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+	width:565px;
+	text-align: right;
+}
+
+nav > ul li {
+	display: inline-block;
+	padding: 10px;
+	border-right: 1px solid #ddd;
+}
+
+nav > ul li: last-child {
+	border-right: none;
+}
+
+nav > ul li > a {
+	color: #999999;
+	font-weight: 900;
+	text-decoration: none;
+	transition: 200ms ease-in all;
+}
+
+nav > ul li > a:hover {
+	color: #eee;
+}
+
+.wrapper {
+	height: 100%;
+	margin-bottom: -50px;
+}
+
+.mainsection, .social {
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.mainsection {
+	float: left;
+	width: 66%;
+}
+
+.about {
+	float: left;
+	width:650px;
+	line-height:24px;
+}
+
+.about p {
+	margin-top: 10px;
+}
+
+#mypic {
+	width: 200px;
+	height: auto;
+	float: left;
+	box-shadow: 0 0 4px black;
+	margin: 0 15px 7px 0;
+}
+
+.social {
+	float: right;
+	width: 270px;
+	margin-left: 35px;
+}
+
+.sociallinks {
+	text-align: center;
+}
+
+form {
+	padding: 25px;
+	border: 1px solid #eee;
+}
+
+.formlabel{
+	line-height: 2em;
+	font-size: 1.3em;
+}
+
+.mainform {
+	box-sizing: border-box;
+	width: 100px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.messageform {
+	border-radius: 2px;
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+}
+
+#mssgfrm {
+	height: 100px;
+	width: 400px;
+}
+
+.submitbttn > button {
+	padding: 10px 20px;
+	background-color: teal;
+	color: white;
+	font-weight: 900;
+}
+
+.submitbttn > button: hover {
+	background-color:#006d6d;
+	color: #c46a21;
+}
+
+.portfoliosquare {
+	float: left;
+	margin: 10px 0 0 10px;
+	box-sizing: border-box;
+	border: 2px solid #dddddd;
+	width: 250px;
+	height: 215px;
+}
+
+.portfoliosquare  a {
+	color: white;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	background-color: teal;
+	font-size: 1.3em;
+	margin-top: 170px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.p1 {
+	background-image: url("../images/portfolio1.jpg");
+	background-size: 275px, 275px;
+}
+
+.p2 {
+	background-image: url("../images/portfolio2.jpg");
+	background-size: 280px, 280px;
+}
+
+.p3 {
+	background-image: url("../images/portfolio3.jpeg");
+	background-size: 350px, 350px;
+}
+
+.p5 {
+	background-image: url("../images/portfolio5.jpg");
+	background-size: 300px, 300px;
+}
+
+.done: after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.done {
+	display: inline-block;
+}
+
+.done {
+	display: block;
+}
+
+#footersec {
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	background-color: #666666;
+	border-top: 5px solid teal;
+	padding: 10px;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+footer {
+	color: #fff;
+	text-align: center;
+}
+
